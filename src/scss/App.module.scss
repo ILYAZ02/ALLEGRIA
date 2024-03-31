@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Cormorant:wght@400;500;700&family=Playfair+Display&family=Poppins:wght@100;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Cormorant', serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1374px;
+    background-color: rgb(232, 232, 232);
+    padding: 0 20px;
+}
+
+.contsmall{
+    width: 100%;
+    max-width: 1137px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+

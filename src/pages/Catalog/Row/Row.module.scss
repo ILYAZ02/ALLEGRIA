@@ -1,0 +1,46 @@
+.row {
+    display: flex;
+    column-gap: 15px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(33.333333% - 10px);
+    text-align: center;
+
+    .img {
+        width: 100%;
+
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #0F303F;
+        margin: 15px 0 5px;
+    }
+
+    .category{
+        font-weight: 300;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #0F303F;
+        margin-bottom: 7px;
+    }
+    .brand{
+        font-weight: 300;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #0F303F;
+        margin-bottom: 7px;
+    }
+    .price{
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.045em;
+        text-transform: uppercase;
+        color: #0F303F;
+    }
+}
